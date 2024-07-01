@@ -1,0 +1,28 @@
+/* components/compteur.module.css */
+
+.compteur {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .compteur h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .compteur button {
+    font-size: 18px;
+    margin: 5px;
+    padding: 10px 20px; /* Légèrement plus grand pour un aspect plus rond */
+    cursor: pointer;
+    border: none;
+    border-radius: 20px; /* Bordures arrondies */
+    background-color: #ce9165; 
+    color: #FFFFFF; /* Texte blanc */
+    transition: background-color 0.3s ease; /* Transition douce pour le changement de couleur */
+  }
+  
+  .compteur button:hover {
+    background-color: #5b4637;
+  }
+  
